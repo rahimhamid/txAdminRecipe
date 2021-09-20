@@ -229,7 +229,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-weathersync
     ref: main
-    src: https://github.com/qbcore-framework/qb-weathersync
+    src: https://github.com/rahimhamid/qb-weathersync
 
   - action: download_github
     dest: ./resources/[qb]/qb-policejob
@@ -309,7 +309,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-smallresources
     ref: main
-    src: https://github.com/qbcore-framework/qb-smallresources
+    src: https://github.com/rahimhamid/qb-smallresources
 
   - action: download_github
     dest: ./resources/[qb]/qb-recyclejob
