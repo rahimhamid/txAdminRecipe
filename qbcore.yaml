@@ -259,7 +259,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-phone
     ref: main
-    src: https://github.com/qbcore-framework/qb-phone
+    src: https://github.com/rahimhamid/qb-phone
 
   - action: download_github
     dest: ./resources/[qb]/qb-vineyard
