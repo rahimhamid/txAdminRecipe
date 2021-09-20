@@ -294,7 +294,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-storerobbery
     ref: main
-    src: https://github.com/qbcore-framework/qb-storerobbery
+    src: https://github.com/rahimhamid/qb-storerobbery
 
   - action: download_github
     dest: ./resources/[qb]/qb-spawn
