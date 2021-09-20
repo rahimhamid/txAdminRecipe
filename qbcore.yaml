@@ -442,7 +442,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-crafting
     ref: main
-    src: https://github.com/qbcore-framework/qb-crafting
+    src: https://github.com/rahimhamid/qb-crafting
 
   - action: download_github
     dest: ./resources/[qb]/qb-garbagejob
