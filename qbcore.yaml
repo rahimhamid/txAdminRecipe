@@ -131,7 +131,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-vehiclesales
     ref: main
-    src: https://github.com/qbcore-framework/qb-vehiclesales
+    src: https://github.com/rahimhamid/qb-vehiclesales
 
   - action: download_github
     dest: ./resources/[qb]/qb-vehicleshop
