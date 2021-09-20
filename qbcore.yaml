@@ -329,7 +329,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-cityhall
     ref: main
-    src: https://github.com/qbcore-framework/qb-cityhall
+    src: https://github.com/rahimhamid/qb-cityhall
 
   - action: download_github
     dest: ./resources/[qb]/qb-casino
