@@ -101,7 +101,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-core
     ref: main
-    src: https://github.com/qbcore-framework/qb-core
+    src: https://github.com/rahimhamid/qb-core
 
   - action: download_github
     dest: ./resources/[qb]/qb-gangmenu
@@ -234,7 +234,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-policejob
     ref: main
-    src: https://github.com/qbcore-framework/qb-policejob
+    src: https://github.com/rahimhamid/qb-policejob
 
   - action: download_github
     dest: ./resources/[qb]/qb-traphouse
