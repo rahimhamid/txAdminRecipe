@@ -349,7 +349,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-oxyrun
     ref: main
-    src: https://github.com/qbcore-framework/qb-oxyrun
+    src: https://github.com/rahimhamid/qb-oxyrun
 
   - action: download_github
     dest: ./resources/[qb]/qb-carwash
