@@ -121,7 +121,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-multicharacter
     ref: main
-    src: https://github.com/qbcore-framework/qb-multicharacter
+    src: https://github.com/rahimhamid/qb-multicharacter
 
   - action: download_github
     dest: ./resources/[qb]/qb-customs
@@ -219,7 +219,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-radialmenu
     ref: main
-    src: https://github.com/qbcore-framework/qb-radialmenu
+    src: https://github.com/rahimhamid/qb-radialmenu
 
   - action: download_github
     dest: ./resources/[qb]/qb-crypto
@@ -324,7 +324,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-diving
     ref: main
-    src: https://github.com/qbcore-framework/qb-diving
+    src: https://github.com/rahimhamid/qb-diving
 
   - action: download_github
     dest: ./resources/[qb]/qb-cityhall
