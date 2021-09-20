@@ -176,7 +176,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-bossmenu
     ref: main
-    src: https://github.com/qbcore-framework/qb-bossmenu
+    src: https://github.com/rahimhamid/qb-bossmenu
 
   - action: download_github
     dest: ./resources/[qb]/qb-weed
