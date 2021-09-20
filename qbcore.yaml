@@ -111,7 +111,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-scoreboard
     ref: main
-    src: https://github.com/qbcore-framework/qb-scoreboard
+    src: https://github.com/rahimhamid/qb-scoreboard
     
   - action: download_github
     dest: ./resources/[qb]/qb-adminmenu
