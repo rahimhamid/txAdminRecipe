@@ -106,7 +106,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-gangmenu
     ref: main
-    src: https://github.com/qbcore-framework/qb-gangmenu
+    src: https://github.com/rahimhamid/qb-gangmenu
 
   - action: download_github
     dest: ./resources/[qb]/qb-scoreboard
