@@ -138,7 +138,7 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-vehicleshop
     
-    action: download_github
+  - action: download_github
     dest: ./resources/[qb]/qb-bitmining
     ref: main
     src: https://github.com/rahimhamid/qb-bitmining
