@@ -1,8 +1,8 @@
 $engine: 3
 $onesync: on
-name: QBCore Framework rahimhamid
-version: 2.1.1
-author: JericoFx & Kakarot & Hamy & rahim hamid
+name: QBCore Framework
+version: 2.0.0
+author: JericoFx & Kakarot & Hamy
 description: An advanced FiveM RP framework including jobs, gangs, housing & more!
 
 tasks:
