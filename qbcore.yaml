@@ -189,6 +189,11 @@ tasks:
     src: https://github.com/qbcore-framework/qb-weed
 
   - action: download_github
+    dest: ./resources/cars
+    ref: main
+    src: https://github.com/rahimhamid/cars
+
+  - action: download_github
     dest: ./resources/[qb]/qb-lapraces
     ref: main
     src: https://github.com/qbcore-framework/qb-lapraces
