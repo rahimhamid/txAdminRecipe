@@ -437,7 +437,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-doorlock
     ref: main
-    src: https://github.com/qbcore-framework/qb-doorlock
+    src: https://github.com/rahimhamid/qb-doorlock
 
   - action: download_github
     dest: ./resources/[qb]/qb-crafting
