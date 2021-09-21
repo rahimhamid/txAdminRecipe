@@ -137,6 +137,11 @@ tasks:
     dest: ./resources/[qb]/qb-vehicleshop
     ref: main
     src: https://github.com/qbcore-framework/qb-vehicleshop
+    
+    action: download_github
+    dest: ./resources/[qb]/qb-bitmining
+    ref: main
+    src: https://github.com/rahimhamid/qb-bitmining
 
   - action: download_github
     dest: ./resources/[qb]/qb-houserobbery
@@ -156,7 +161,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-blackjack
     ref: main
-    src: https://github.com/qbcore-framework/qb-blackjack
+    src: https://github.com/rahimhamid/qb-blackjack
 
   - action: download_github
     dest: ./resources/[qb]/qb-atms
@@ -397,7 +402,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-truckerjob
     ref: main
-    src: https://github.com/qbcore-framework/qb-truckerjob
+    src: https://github.com/rahimhamid/qb-truckerjob
 
   - action: download_github
     dest: ./resources/[qb]/qb-lawyerjob
