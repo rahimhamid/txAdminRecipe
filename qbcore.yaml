@@ -359,7 +359,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-truckrobbery
     ref: main
-    src: https://github.com/qbcore-framework/qb-truckrobbery
+    src: https://github.com/rahimhamid/qb-truckrobbery
 
   - action: download_github
     dest: ./resources/[qb]/qb-pawnshop
