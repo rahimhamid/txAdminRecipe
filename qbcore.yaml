@@ -196,7 +196,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-inventory
     ref: main
-    src: https://github.com/qbcore-framework/qb-inventory
+    src: https://github.com/rahimhamid/qb-inventory
 
   - action: download_github
     dest: ./resources/[qb]/qb-houses
