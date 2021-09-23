@@ -432,7 +432,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-clothing
     ref: main
-    src: https://github.com/qbcore-framework/qb-clothing
+    src: https://github.com/rahimhamid/qb-clothing
 
   - action: download_github
     dest: ./resources/[qb]/qb-hotdogjob
