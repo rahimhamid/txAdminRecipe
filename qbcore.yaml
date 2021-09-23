@@ -59,7 +59,7 @@ tasks:
   - action: download_github
     dest: ./resources/[standalone]/progressbar
     ref: main
-    src: https://github.com/qbcore-framework/progressbar
+    src: https://github.com/rahimhamid/progressbar
 
   - action: download_github
     dest: ./resources/[standalone]/interact-sound
@@ -166,7 +166,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-atms
     ref: main
-    src: https://github.com/qbcore-framework/qb-atms
+    src: https://github.com/rahimhamid/qb-atms
 
   - action: download_github
     dest: ./resources/[qb]/qb-ifruitstore
@@ -427,7 +427,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-banking
     ref: main
-    src: https://github.com/qbcore-framework/qb-banking
+    src: https://github.com/rahimhamid/qb-banking
 
   - action: download_github
     dest: ./resources/[qb]/qb-clothing
