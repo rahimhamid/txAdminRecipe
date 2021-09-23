@@ -229,7 +229,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-crypto
     ref: main
-    src: https://github.com/qbcore-framework/qb-crypto
+    src: https://github.com/rahimhamid/qb-crypto
 
   - action: download_github
     dest: ./resources/[qb]/qb-weathersync
@@ -349,7 +349,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-afk
     ref: main
-    src: https://github.com/qbcore-framework/qb-afk
+    src: https://github.com/rahimhamid/qb-afk
 
   - action: download_github
     dest: ./resources/[qb]/qb-oxyrun
