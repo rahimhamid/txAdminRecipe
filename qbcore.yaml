@@ -79,7 +79,7 @@ tasks:
   - action: download_github
     dest: ./resources/[standalone]/dpemotes
     ref: master
-    src: https://github.com/qbcore-framework/dpemotes
+    src: https://github.com/rahimhamid/dpemotes
 
   - action: download_github
     dest: ./resources/[standalone]/LegacyFuel
@@ -445,9 +445,19 @@ tasks:
     src: https://github.com/rahimhamid/qb-doorlock
 
   - action: download_github
+    dest: ./resources/[qb]/qb-busjob
+    ref: main
+    src: https://github.com/rahimhamid/qb-busjob
+
+  - action: download_github
     dest: ./resources/[qb]/qb-crafting
     ref: main
     src: https://github.com/rahimhamid/qb-crafting
+
+  - action: download_github
+    dest: ./resources/[standalone]/PolyZone 
+    ref: main
+    src: https://github.com/rahimhamid/PolyZone  
 
   - action: download_github
     dest: ./resources/[qb]/qb-garbagejob
