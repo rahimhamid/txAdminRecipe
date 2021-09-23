@@ -453,12 +453,7 @@ tasks:
     dest: ./resources/[qb]/qb-crafting
     ref: main
     src: https://github.com/rahimhamid/qb-crafting
-
-  - action: download_github
-    dest: ./resources/[standalone]/PolyZone 
-    ref: main
-    src: https://github.com/rahimhamid/PolyZone  
-
+    
   - action: download_github
     dest: ./resources/[qb]/qb-garbagejob
     ref: main
