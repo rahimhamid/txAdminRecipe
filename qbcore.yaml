@@ -33,11 +33,11 @@ tasks:
     dest: ./resources/[cfx-default]
 
   - action: download_file
-    path: ./tmp/files/oxmysql-1.4.0.zip
-    url: https://github.com/overextended/oxmysql/releases/download/v1.4.0/oxmysql-v1.4.0.zip
+    path: ./tmp/files/oxmysql-1.5.1.zip
+    url: https://github.com/overextended/oxmysql/releases/download/v1.5.1/oxmysql-v1.5.1.zip
   - action: unzip
     dest: ./resources/[standalone]
-    src: ./tmp/files/oxmysql-1.4.0.zip
+    src: ./tmp/files/oxmysql-1.5.1.zip
 
   - action: download_file
     path: ./tmp/menuv.zip
@@ -95,8 +95,7 @@ tasks:
     dest: ./resources/[voice]/qb-radio
     ref: main
     src: https://github.com/qbcore-framework/qb-radio
-
-
+    
   # Downloading QBCore resources
   - action: download_github
     dest: ./resources/[qb]/qb-core
@@ -122,6 +121,9 @@ tasks:
     dest: ./resources/[qb]/qb-multicharacter
     ref: main
     src: https://github.com/rahimhamid/qb-multicharacter
+
+  - action: waste_time # prevent github throttling
+    seconds: 10
 
   - action: download_github
     dest: ./resources/[qb]/qb-customs
